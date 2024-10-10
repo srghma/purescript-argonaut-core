@@ -1,0 +1,32 @@
+package:
+  name: argonaut-core
+  publish:
+    license: MIT
+    version: 7.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-argonaut-core
+  dependencies:
+    - arrays
+    - control
+    - either
+    - foreign-object
+    - functions
+    - gen
+    - maybe
+    - nonempty
+    - prelude
+    - strings
+    - tailrec
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - effect
+      - partial
+      - quickcheck
+      - tuples
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
