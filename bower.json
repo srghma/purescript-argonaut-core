@@ -16,14 +16,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/purescript-contrib/purescript-argonaut-core.git"
-  },
-  "ignore": [
-    "**/.*",
-    "bower_components",
-    "node_modules",
-    "output",
-    "test",
-    "bower.json",
-    "package.json"
-  ]
+  }
 }
